@@ -1,7 +1,7 @@
 package hw3Q3JavaBasics;
 
 public class MyAddress {
-//we want to change the allignment//
+//we want to change the system
 	public static void main(String[] args) {
 
 		String MyName = "Boby";
