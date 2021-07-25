@@ -12,11 +12,12 @@ package hw7Q4Abstraction02;
 
 	public void languageClub();
 	
-public void dorm();
-		
-	
-	public static void studyRoom(String []args) {
-		
+	public default void dorm() {
+		System.out.println("This is a default method from College interface");
 	}
-
+			
+	public static void studyRoom() {
+		System.out.println("This is a static method from College interface");
+	}
+		
 }

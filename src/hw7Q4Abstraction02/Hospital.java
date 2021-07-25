@@ -12,10 +12,12 @@ package hw7Q4Abstraction02;
 
 	public void cafeteria();
 	
-    public void morgue();
-		
-	public static void pharmacy(String []args) {
-		
+	public default void morgue() {
+		System.out.println("This is a default method from Hospital interface");
 	}
-	
+			
+	public static void pharmacy() {
+		System.out.println("This is a static method from Hospital interface");
+	}
+		
 }
