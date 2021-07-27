@@ -1,5 +1,6 @@
 package hw6Q3Inheritance;
-/*Now create a class "TestAnimal". Under the main method 
+
+/* Now create a class "TestAnimal". Under the main method 
  * create an object from each class 
  * and call their own method by their own object. 
  * 
@@ -13,54 +14,49 @@ package hw6Q3Inheritance;
 public class TestAnimal {
 
 	public static void main(String[] args) {
-		
+
 		Animal animal = new Animal();
 		animal.animalInfo();
-		
+
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
-		mammal.animalInfo();//Single Inheritance & Animal Parent & Mammal child class
+		mammal.animalInfo();// Single Inheritance & Animal Parent & Mammal child class
 
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
-		reptile.animalInfo();//Single Inheritance & Animal Parent & Reptile child class
-		
+		reptile.animalInfo();// Single Inheritance & Animal Parent & Reptile child class
+
 		Birds birds = new Birds();
 		birds.birdsInfo();
-		birds.animalInfo();//Single Inheritance & Animal Parent & Birds child class
-		
+		birds.animalInfo();// Single Inheritance & Animal Parent & Birds child class
+
 		Dog dog = new Dog();
 		dog.dogInfo();
-		dog.mammalInfo();//Mammal Parent & Dog Child
-		dog.animalInfo();//Hierarchical inheritance Animal Parent & Mammal Child
-		
+		dog.mammalInfo();// Mammal Parent & Dog Child
+		dog.animalInfo();// Hierarchical inheritance Animal Parent & Mammal Child
+
 		Snake snake = new Snake();
 		snake.snakeInfo();
-		snake.reptileInfo();//Reptile Parent & Snake Child
-		snake.animalInfo();//Hierarchical inheritance Animal Parent & Reptile Child
-		
-		
+		snake.reptileInfo();// Reptile Parent & Snake Child
+		snake.animalInfo();// Hierarchical inheritance Animal Parent & Reptile Child
+
 		Robin robin = new Robin();
 		robin.robinInfo();
-		robin.birdsInfo();//Birds Parent & Robin Child
-		robin.animalInfo();//Hierarchical inheritance Animal Parent & Birds Child
-		
+		robin.birdsInfo();// Birds Parent & Robin Child
+		robin.animalInfo();// Hierarchical inheritance Animal Parent & Birds Child
+
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
-		bullDog.dogInfo();//Dog Parent & BullDog child
-		bullDog.mammalInfo();//Mammal Parent & Dog Child
-		bullDog.animalInfo();//Multilevel Inheritance Animal Parent & Mammal Child
-		
+		bullDog.dogInfo();// Dog Parent & BullDog child
+		bullDog.mammalInfo();// Mammal Parent & Dog Child
+		bullDog.animalInfo();// Multilevel Inheritance Animal Parent & Mammal Child
+
 		Cobra cobra = new Cobra();
 		cobra.cobraInfo();
-		cobra.snakeInfo();//Snake Parent & Cobra Child
-		cobra.reptileInfo();//Reptile Parent & Snake Child
-		cobra.animalInfo();//Multilevel Inheritance  Animal Parent & Reptile Child
-		
-		
-			
-		
-		
+		cobra.snakeInfo();// Snake Parent & Cobra Child
+		cobra.reptileInfo();// Reptile Parent & Snake Child
+		cobra.animalInfo();// Multilevel Inheritance Animal Parent & Reptile Child
+
 	}
 
 }

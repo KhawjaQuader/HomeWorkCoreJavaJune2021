@@ -15,8 +15,6 @@ public class MyCar {
 		System.out.print("Year:  2012 ");
 		System.out.print("Wheel: 4 wheel drive ");
 
-	
-
 		// TODO Need to create new code
 
 	}

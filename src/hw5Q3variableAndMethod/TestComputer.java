@@ -1,7 +1,12 @@
 package hw5Q3variableAndMethod;
 
 /*
-  6 Create another class TestComputer. 7 Create object from Computer class under main method. 8 Initialize object and configuration method. I want the first outcome in console as --> My Brand: Apple, Model: MacBook Air, Operating system: MacOS Mojave, Price: 800$ and Made in USA? : false. I want second outcome in console for your configuration. So, Total 2 outcome is expecting from the test class. Organize your code. Push in the github. Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class
+  6 Create another class TestComputer. 
+  7 Create object from Computer class under main method. 
+  8 Initialize object and configuration method. 
+  9 I want the first outcome in console as --> My Brand: Apple, Model: MacBook Air, Operating system: MacOS Mojave, Price: 800$ and Made in USA? : false. 
+  10 I want second outcome in console for your configuration. So, Total 2 outcome is expecting from the test class.
+  11 Organize your code. Push in the github. Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class
  */
 
 public class TestComputer {// 6 TestComputer class created as another
@@ -17,7 +22,7 @@ public class TestComputer {// 6 TestComputer class created as another
 
 		computer.configuration();
 
-		System.out.println("********************************************************************");
+		System.out.println("***********************************************************");
 
 		Computer computer_b = new Computer();
 		computer_b.Brand = "Apple 2";

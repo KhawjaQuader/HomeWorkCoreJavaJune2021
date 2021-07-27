@@ -17,14 +17,15 @@ public class MyProfile {
 	}
 
 	public void myProfile() {// Method implemented
-		System.out.println("My Name: " + MyName + "\t\t\tMy Age: " + myAge + "\t\tMy Sex: " + mySex + "\nMy Birth Place: "
-				+ birthUsa + "\t\tMy Serial Number: " + serialNumber + "\tMy Id Number: " + idNumber + "\nMy Cell Number: "
-				+ cellnumber + "\tMy Grade: " + myGrade + "\t\tMy Height: " + myHeight);
+		System.out
+				.println("My Name: " + MyName + "\t\t\tMy Age: " + myAge + "\t\tMy Sex: " + mySex + "\nMy Birth Place: "
+						+ birthUsa + "\t\tMy Serial Number: " + serialNumber + "\tMy Id Number: " + idNumber
+						+ "\nMy Cell Number: " + cellnumber + "\tMy Grade: " + myGrade + "\t\tMy Height: " + myHeight);
 
 	}
 
 	public static void main(String[] args) {
-		MyProfile Boby = new MyProfile();//Initialize Default Constructor
+		MyProfile Boby = new MyProfile();// Initialize Default Constructor
 		Boby.MyName = "Boby";
 		Boby.myAge = 55;
 		Boby.mySex = 'M';
