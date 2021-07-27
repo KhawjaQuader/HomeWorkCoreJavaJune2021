@@ -53,5 +53,5 @@ public interface University  {
 	//regular Class inherit other Abstract Class or a regular class or interface
 	//One for Abstract or regular class More then one for interface
 	
-	
+	//aaaaaaaaaaaa
 }

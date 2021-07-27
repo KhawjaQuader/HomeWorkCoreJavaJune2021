@@ -1,12 +1,5 @@
 package hw5Q4Constructor;
 
-import java.awt.GraphicsDevice;
-import java.lang.management.OperatingSystemMXBean;
-import java.lang.module.Configuration;
-import java.security.PublicKey;
-
-import javax.management.modelmbean.ModelMBean;
-
 /*1 Create a package name "hw5Q4Constructor" in your HW project. 2 Inside the package,  Create a class "Computer". 3 Declare some variable -- Brand, Model, Operating system, price, madeInUSA, grade (grade as char). 4 Declare default constructor and  5 multiple parameterized constructor. Use only one System.out.println() in each constructor. 
  * 
  * 6) Create another class TestComputer. 7 Create object as many as you want under main method. 8 Initialize all the constructors.9 I want in console, the first outcome as --> This is from default Constructor of Computer class.10 Second outcome as-- > My Brand: Apple, Model: MacBook Air, Operating system: MacOS Mojave, Price: 800$, Grade: C and Made in USA? : false. 11 I want the third outcome in console for your configuration. 12 Fourth outcome for 1 variable, 13 5th outcome for 3 variable,14 6th outcome for 5 variable.15 Organize your code. Push in the github. Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class)

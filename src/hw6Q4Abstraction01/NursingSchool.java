@@ -18,7 +18,7 @@ package hw6Q4Abstraction01;
 		// Abstract Class inherit other Abstract Class only one
 		// Abstract class can inherit Regular class only one
 		// Abstract class can inherit Interface by Implement keywords for more then one
-		// Interface
+		// interface
 
 	}
 }

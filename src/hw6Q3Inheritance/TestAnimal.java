@@ -1,9 +1,13 @@
 package hw6Q3Inheritance;
-/*Now create a class "TestAnimal". Under the main method create an object from each class and call their own method by their own object. 
+/*Now create a class "TestAnimal". Under the main method 
+ * create an object from each class 
+ * and call their own method by their own object. 
  * 
- * Now extends BullDog, Cobra, and Robin class and shows their hierarchy till Animal Class, for example: bulldog -- dog -- mammal --Animal, Cobra -- snake--reptile--Animal, Robin -- Bird -- Animal etc. 
+ * Now extends BullDog, Cobra, and Robin class and shows their hierarchy till Animal Class, for example:( bulldog -- dog -- mammal --Animal,)( Cobra -- snake--reptile--Animal,)( Robin -- Bird -- Animal) etc. 
  * 
- * An object Can call other methods if the class is extended, if yes, show all the possible calls. Use Java comments to show single inheritance, multiple inheritance, Hierarchical inheritance by example form above. Also, show by java comments who is Parent class and who is child class. Organize the code. Push the code in Github. Paste your github link below.
+ * An object Can call other methods if the class is extended, if yes, show all the possible calls. Use Java comments to show single inheritance, multiple inheritance, Hierarchical inheritance by example form above. Also, show by java comments who is Parent class and who is child class.
+ * 
+ *  Organize the code. Push the code in Github. Paste your github link below.
  */
 
 public class TestAnimal {
