@@ -12,6 +12,6 @@ public class TestEmployee {
 		employee.setIsusCitezen(false);
 
 		System.out.println("Name: " + employee.getEmpName() + ", \nAge:" + employee.getAge() + ", \nSex "
-				+ employee.getSex() + ", \nIs US Citizen " + employee.isIsusCitezen());
+				+ employee.getSex() + ", \nIs US Citizen " + employee.getisIsusCitezen());
 	}
 }
