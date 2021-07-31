@@ -26,7 +26,7 @@ public class Employee {
 		return sex;
 	}
 
-	public boolean getisIsusCitezen() {
+	public boolean getIsusCitezen() {
 		return isusCitezen;
 	}
 
