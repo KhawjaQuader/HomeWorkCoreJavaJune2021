@@ -12,6 +12,7 @@ package hw5Q5Constructor;
 public class TestStudent {
 
 	public static void main(String[] args) {
+		
 		Student student = new Student();
 		Student student2 = new Student("Boby", 12345, 'M', 3.976f, true);
 		Student student3 = new Student();

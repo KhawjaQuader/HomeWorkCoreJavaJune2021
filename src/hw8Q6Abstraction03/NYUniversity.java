@@ -5,7 +5,7 @@ package hw8Q6Abstraction03;
 public class NYUniversity {
 
 	public void physics() {
-		System.out.println("This is Physics Method");
+		System.out.println("The name of the method is Physics ");
 	}
 
 	public NYUniversity() {

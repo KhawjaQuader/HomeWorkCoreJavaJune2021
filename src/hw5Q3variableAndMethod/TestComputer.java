@@ -6,7 +6,9 @@ package hw5Q3variableAndMethod;
   8 Initialize object and configuration method. 
   9 I want the first outcome in console as --> My Brand: Apple, Model: MacBook Air, Operating system: MacOS Mojave, Price: 800$ and Made in USA? : false. 
   10 I want second outcome in console for your configuration. So, Total 2 outcome is expecting from the test class.
-  11 Organize your code. Push in the github. Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class
+  11 Organize your code.
+  12 Push in the github. 
+  13 Paste your github link below. (Please paste the whole question inside the multiple line comments between package and class
  */
 
 public class TestComputer {// 6 TestComputer class created as another

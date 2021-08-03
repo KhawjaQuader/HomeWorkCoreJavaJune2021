@@ -29,7 +29,7 @@ public class Computer {// 2 Here left side of curly braces class name computer c
 	public char grade;
 
 	public Computer() {// 4 default constructor declared
-		System.out.println(" This is default constructor");// 1st outcome
+		System.out.println(" This is default constructor of Ctomputer class ");// 1st outcome
 	}
 
 	public Computer(String Brand, String Model, String OperatingSystem, int price, char grade, boolean madeInUSA) {// 2nd

@@ -1,5 +1,13 @@
 package hw4Q3JavaVariablesConstructorAndMethod;
-
+/*
+ * Create --- a package name "hw4Q3JavaVariablesConstructorAndMethod" in "HomeWorkCoreJavaJune2021" project
+ * . Create a Class name "MyProfile". 
+ * Declare 8 types (If less than 8 type, will get zero) of primitive variable
+ *  and initialize them by object under main method.
+ *   Declare default constructor and initialize it (show by comments where it is initializing). 
+ *   Use a method and add above declared varible to use to get a outcome in console.  
+ *   Print out 2 sets of data for different person (one is you, another one is your favorite person). Type as much as possible. Use \n, \t somewhere in the String. After finish writing the code, paste the code here.
+ */
 public class MyProfile {
 
 	public String MyName;
@@ -12,13 +20,12 @@ public class MyProfile {
 	public float myGrade;
 	public double myHeight;
 
-	public MyProfile() {// constructor declared
+	public MyProfile() {//Default constructor declared
 
 	}
 
 	public void myProfile() {// Method implemented
-		System.out
-				.println("My Name: " + MyName + "\t\t\tMy Age: " + myAge + "\t\tMy Sex: " + mySex + "\nMy Birth Place: "
+		System.out.println("My Name: " + MyName + "\t\t\tMy Age: " + myAge + "\t\tMy Sex: " + mySex + "\nMy Birth Place: "
 						+ birthUsa + "\t\tMy Serial Number: " + serialNumber + "\tMy Id Number: " + idNumber
 						+ "\nMy Cell Number: " + cellnumber + "\tMy Grade: " + myGrade + "\t\tMy Height: " + myHeight);
 
