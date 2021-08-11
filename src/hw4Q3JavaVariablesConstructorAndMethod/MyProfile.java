@@ -1,12 +1,12 @@
 package hw4Q3JavaVariablesConstructorAndMethod;
 /*
  * Create --- a package name "hw4Q3JavaVariablesConstructorAndMethod" in "HomeWorkCoreJavaJune2021" project
- * . Create a Class name "MyProfile". 
+ * Create a Class name "MyProfile". 
  * Declare 8 types (If less than 8 type, will get zero) of primitive variable
- *  and initialize them by object under main method.
- *   Declare default constructor and initialize it (show by comments where it is initializing). 
- *   Use a method and add above declared varible to use to get a outcome in console.  
- *   Print out 2 sets of data for different person (one is you, another one is your favorite person). Type as much as possible. Use \n, \t somewhere in the String. After finish writing the code, paste the code here.
+ * and initialize them by object under main method.
+ * Declare default constructor and initialize it (show by comments where it is initializing). 
+ * Use a method and add above declared varible to use to get a outcome in console.  
+ * Print out 2 sets of data for different person (one is you, another one is your favorite person). Type as much as possible. Use \n, \t somewhere in the String. After finish writing the code, paste the code here.
  */
 public class MyProfile {
 

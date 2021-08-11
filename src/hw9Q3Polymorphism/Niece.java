@@ -22,7 +22,7 @@ public class Niece extends Sister {
 		System.out.println("Total Age:" + total);
 		return total;
 	}
- // As it is own method of Niece class Override is not required
+ // As it is own Static method of Niece class Override is not required
 	public static int ageOfSisters(int age1, int age2, int age3, int age4,int age5) {// Static type method
 		int total = age1 + age2 + age3 + age4 + age5+ 8;
 		System.out.println("This Static method Age is:" + total);

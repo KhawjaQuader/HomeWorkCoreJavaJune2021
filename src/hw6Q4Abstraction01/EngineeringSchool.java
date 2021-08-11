@@ -9,11 +9,11 @@ public abstract class EngineeringSchool extends NursingSchool {
 
 	public abstract void mechanicalLab();//Abstract method Declared
 
-	public void computerLab() {//Non Abstract method imp
+	public void computerLab() {//Non Abstract Void method inside Abstract Class
 		System.out.println("The method name is Computer Lab  ");
 	}
 
-	public EngineeringSchool() {// Constructor inside Abstract Class
+	public EngineeringSchool() {// Default Constructor inside Abstract Class
 
 	}
 

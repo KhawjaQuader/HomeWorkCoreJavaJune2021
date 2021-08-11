@@ -45,7 +45,7 @@ public class Father {
 		System.out.println("This is a Regular void type method from Father Class");
 	}
 
-	public void fatherInfo(String name, int age, char sex, boolean usCitizen) {
+	public void fatherInfo(String name, int age, char sex, boolean usCitizen) {//Parameterized method
 		this.Name = name;
 		this.age = age;
 		this.sex = sex;

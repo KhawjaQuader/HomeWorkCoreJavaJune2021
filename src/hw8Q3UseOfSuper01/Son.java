@@ -1,4 +1,4 @@
-package hw8Q3UseOfSuper01;
+ package hw8Q3UseOfSuper01;
 /*
  * b) Create a class name Son, 
  * declare variable Id, grade.
@@ -16,8 +16,8 @@ public class Son extends Father {
 	
 	public Son() {//Default Constructor
 		super();
-		super.father();
-		super.fatherInfo("Apple",25 ,'M',true);
+		super.father();//Regular void method
+		super.fatherInfo("Apple",25 ,'M',true);//Parameterized method
 		super.FamilyName ="Royal";
 		System.out.println("Family Name: "+ FamilyName);
 		System.out.println("This is Default Constructor of Son Class");
@@ -34,7 +34,7 @@ public class Son extends Father {
 		System.out.println("ID: " + id +", Grade: "+ grade);
 	}
 	
-	public void son() {//Regular Method
+	public void son() {//Regular void Method
 		super.father();//Super Method can come under Method
 		super.fatherInfo("Apple",25 ,'M',true);
 		super.FamilyName ="Royal";

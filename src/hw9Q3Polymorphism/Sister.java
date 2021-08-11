@@ -1,7 +1,5 @@
 package hw9Q3Polymorphism;
 
-import java.lang.reflect.ParameterizedType;
-
 /*
  *  Create a package "hw9Q3Polymorphism"  *  inside your HW project and execute the remaining.
  *  Read the question very carefully. 
@@ -26,6 +24,7 @@ public class Sister {
 	public void ageofSister(int age1, int age2) {// parameterized method
 		int total = age1 + age2;
 		System.out.println("This Parameterized type method from Sister class ");
+	    
 	}
 
 	public int ageOfSisters(int age1, int age2, int age3) {// Parameterized return type
