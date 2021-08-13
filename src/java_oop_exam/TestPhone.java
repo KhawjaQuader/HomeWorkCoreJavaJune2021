@@ -1,7 +1,5 @@
 package java_oop_exam;
 
-import javax.swing.plaf.synth.SynthOptionPaneUI;
-
 /*
  * Think about a class name TestPhone. 
  * Instantiate IPhone1, AppleWatch and Phone inside it. 
@@ -80,36 +78,38 @@ public class TestPhone {
 
 		System.out.println("\n****************Inherite from Iphone2*************************");
 		iPhone2.dropbox();
-		//Ans to Question number 8
-		
+		// Ans to Question number 8
+
 		System.out.println("\n Ans to Question number 8 ");
 
-		iphone6.materials();//void type method
-		iphone6.materials(10, 20);//Parameterized void type method instantiated
-		iphone6.materials(30, 40, "50");//Parameterized return type method instantiated
-		Iphone6.materials(55, 65, 75, 85);//Static return type method need to call by Class instantiated
-		iphone6.materials(15, 25, 35, 45, 55);//Final return type method instantiated
-	
+		iphone6.materials();// void type method
+		iphone6.materials(10, 20);// Parameterized void type method instantiated
+		iphone6.materials(30, 40, "50");// Parameterized return type method instantiated
+		Iphone6.materials(55, 65, 75, 85);// Static return type method need to call by Class instantiated
+		iphone6.materials(15, 25, 35, 45, 55);// Final return type method instantiated
+
 		System.out.println("****************************************************************");
-	
-	ConfiguredIphone6 configuredIphone6 = new ConfiguredIphone6();
-	configuredIphone6.materials();//void type method instantiated
-	configuredIphone6.materials(11, 21);//Parameterized method void type instantiated
-	configuredIphone6.materials(31, 41, "51");//Parameterized return type method instantiated
-	ConfiguredIphone6.materials(61, 71, 81, 91);//Static  return type method need to call by class instantiated
-	
-	// Q What kind of concept you can use? Ans Overriding and Overloading.
-	
-	// Comment out at the end of TestPhone to inform me which is hierarchical inheritance, multilevel inheritance, and single inheritance.
-	// Single Inheritance = ConfiguredIphone extends Iphone1
-	// Hierarchical Inheritance = Iphone2 and Iphone3 extends Iphone1
-	// Multilevel Inheritance = Iphone6 extends Iphone5 extends Iphone4 extends Iphone2 extends Iphone1
-	System.out.println("********************************************************************");
-	System.out.println("Single Inheritance = ConfiguredIphone extends Iphone1");
-	System.out.println("Hierarchical Inheritance = Iphone2 and Iphone3 extends Iphone1");
-	System.out.println("Multilevel Inheritance = Iphone6 extends Iphone5 extends Iphone4 extends Iphone2 extends Iphone1");
-	System.out.println("*******************End of the Oop_Exam_HomeWork*********************");
+
+		ConfiguredIphone6 configuredIphone6 = new ConfiguredIphone6();
+		configuredIphone6.materials();// void type method instantiated
+		configuredIphone6.materials(11, 21);// Parameterized method void type instantiated
+		configuredIphone6.materials(31, 41, "51");// Parameterized return type method instantiated
+		ConfiguredIphone6.materials(61, 71, 81, 91);// Static return type method need to call by class instantiated
+
+		// Q What kind of concept you can use? Ans Overriding and Overloading.
+
+		// Comment out at the end of TestPhone to inform me which is hierarchical
+		// inheritance, multilevel inheritance, and single inheritance.
+		// Single Inheritance = ConfiguredIphone extends Iphone1
+		// Hierarchical Inheritance = Iphone2 and Iphone3 extends Iphone1
+		// Multilevel Inheritance = Iphone6 extends Iphone5 extends Iphone4 extends
+		// Iphone2 extends Iphone1
+		System.out.println("********************************************************************");
+		System.out.println("Single Inheritance = ConfiguredIphone extends Iphone1");
+		System.out.println("Hierarchical Inheritance = Iphone2 and Iphone3 extends Iphone1");
+		System.out.println(
+				"Multilevel Inheritance = Iphone6 extends Iphone5 extends Iphone4 extends Iphone2 extends Iphone1");
+		System.out.println("*******************End of the Oop_Exam_HomeWork*********************");
 	}
-	
 
 }

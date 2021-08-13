@@ -25,16 +25,16 @@ package java_oop_exam;
  * make a relation of this 4, with Phone if possible. ???
  * [points: 70] .
  */
- /* Q 3
- * Assume AppleWatch is an abstract class 
- * which has 2 method: One is abstractClassInfo [which is a non-abstract method, 
- * print out all the features of an abstract class compared with Interface, regular class]. 
- * what type of method would be the other one - name appleWatchInfo? 
- * Can you create a constructor inside Abstract Class?
- * Create two interface names Watch, DigitalWatch.
- * And a regular class name AppleWatchSeries5. 
- * Can you make a relationship with AppleWatch, Watch, DigitalWatch, and AppleWatchSeries5?
- */
+/* Q 3
+* Assume AppleWatch is an abstract class 
+* which has 2 method: One is abstractClassInfo [which is a non-abstract method, 
+* print out all the features of an abstract class compared with Interface, regular class]. 
+* what type of method would be the other one - name appleWatchInfo? 
+* Can you create a constructor inside Abstract Class?
+* Create two interface names Watch, DigitalWatch.
+* And a regular class name AppleWatchSeries5. 
+* Can you make a relationship with AppleWatch, Watch, DigitalWatch, and AppleWatchSeries5?
+*/
 /* Q 4
  * Now think about a regular class Iphone1.
  * Create a method - regularClassInfo 
@@ -64,7 +64,6 @@ public interface Phone extends Pager, Wakitaki {// Phone is an Interface
 		System.out.println("Battery is a Default Non Abstract or Implemented method.");
 		System.out.println("*****************************************************************");
 	}
-	
 
 	public static void wireless() {
 		System.out.println("wireless is a Static Non Abstract or Implemented method");
@@ -73,9 +72,8 @@ public interface Phone extends Pager, Wakitaki {// Phone is an Interface
 	/*
 	 * You cannot instantiate an interface. An interface does not contain any
 	 * constructors. All of the methods in an interface are abstract. An interface
-	 * cannot contain instance fields
-	 * An interface is not extended by a class;
-	 * it is implemented by a class
+	 * cannot contain instance fields An interface is not extended by a class; it is
+	 * implemented by a class
 	 */
 
 }

@@ -1,7 +1,5 @@
 package java_oop_exam;
 
-public class LandPhone  {
+public class LandPhone {
 
-	
-	
 }

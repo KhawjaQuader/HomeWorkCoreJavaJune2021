@@ -30,25 +30,25 @@ package java_oop_exam;
  * user's sex: <put your sex initial> 
  * and boolean value for made in USA is: false". [points: 70] .
  */
-public class Iphone1 extends AppleWatch implements Phone{// Concrete class
-	
-	
+public class Iphone1 extends AppleWatch implements Phone {// Concrete class
+
 	private String purchase;
 	private int price;
 	private char sex;
 	private boolean madeInUSA;
 	public String Name;
-	
-	public Iphone1 () {//Default constructor
-			}
-	
-	public Iphone1(String purchase, int price, char sex, boolean madeInUSA) {//Parameterized Constructor
+
+	public Iphone1() {// Default constructor
+	}
+
+	public Iphone1(String purchase, int price, char sex, boolean madeInUSA) {// Parameterized Constructor
 		this.purchase = purchase;
 		this.price = price;
 		this.sex = sex;
 		this.madeInUSA = madeInUSA;
-		System.out.println(" Purchase: " + purchase + ", price: " + price + ", Sex: " + sex + ", Made in USA: " + madeInUSA);
-		
+		System.out.println(
+				" Purchase: " + purchase + ", price: " + price + ", Sex: " + sex + ", Made in USA: " + madeInUSA);
+
 	}
 
 	public String getPurchase() {
@@ -56,83 +56,74 @@ public class Iphone1 extends AppleWatch implements Phone{// Concrete class
 	}
 
 	public void youtube() {
-		}
-	
+	}
+
 	public void setPurchase(String purchase) {
 		this.purchase = purchase;
 	}
-
 
 	public int getPrice() {
 		return price;
 	}
 
-
 	public void setPrice(int price) {
 		this.price = price;
 	}
-
 
 	public char getSex() {
 		return sex;
 	}
 
-
 	public void setSex(char sex) {
 		this.sex = sex;
 	}
-
 
 	public boolean isMadeInUSA() {
 		return madeInUSA;
 	}
 
-
 	public void setMadeInUSA(boolean madeInUSA) {
 		this.madeInUSA = madeInUSA;
 	}
 
+	public void regularClassInfo() {// This is a Regular void type method from Iphone1 class
 
-	public void regularClassInfo() {//This is a Regular void type method from Iphone1 class
-			
 		System.out.println("****************************************************************");
-		System.out.println(" Regular Class \n Extends key word is used to inherit either a Regular class or an abstract class. \n Implements keyword is used to inherit Interface. \n Multiple Interface is inherited by Implements keyword. \n Contain only implemented method. \n Regular class can inherit 1 Abstract class by Extends keyword. \n Can inherit Interface by Implements keyword more then 1.  ");
+		System.out.println(
+				" Regular Class \n Extends key word is used to inherit either a Regular class or an abstract class. \n Implements keyword is used to inherit Interface. \n Multiple Interface is inherited by Implements keyword. \n Contain only implemented method. \n Regular class can inherit 1 Abstract class by Extends keyword. \n Can inherit Interface by Implements keyword more then 1.  ");
 		System.out.println("****************************************************************");
-		
-		
+
 	}
-	
 
-@Override
-public void interfaceInfo() {
-	System.out.println(" Interface \n Methods might contain abstract keyword or not.\n Interface is a Blueprint of Class. \n Generally Methods declared inside it. \n Name starts with UpperCase. \n\t We can not create constructor inside interface. \n\t We can not write variables inside interface .");
-	
+	@Override
+	public void interfaceInfo() {
+		System.out.println(
+				" Interface \n Methods might contain abstract keyword or not.\n Interface is a Blueprint of Class. \n Generally Methods declared inside it. \n Name starts with UpperCase. \n\t We can not create constructor inside interface. \n\t We can not write variables inside interface .");
+
+	}
+
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void message() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void camera() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Void appleWatchInfo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
-
-@Override
-public void call() {
-	// TODO Auto-generated method stub
-	
-}
-
-@Override
-public void message() {
-	// TODO Auto-generated method stub
-	
-}
-
-@Override
-public void camera() {
-	// TODO Auto-generated method stub
-	
-}
-
-@Override
-public Void appleWatchInfo() {
-	// TODO Auto-generated method stub
-	return null;
-}
-
-}
-
-	

@@ -12,13 +12,14 @@ package java_oop_exam;
  * [points: 70] 
  */
 
-public abstract class AppleWatch extends AppleWatchSeries5 implements Watch,DigitalWatch {
-	
-	public void abstractClassInfo() {//Non Abstract Method
-		System.out.println(" Abstract class \n Name starts with UpperCase. \n Methods implemented inside it. \n Methods declared inside it. \n An abstract class is a super class that cannot be instantiated. \n\t Applewatchinfo is Abstract method. \n\t Yes we can create constructor inside Abstract Class. ");
+public abstract class AppleWatch extends AppleWatchSeries5 implements Watch, DigitalWatch {
+
+	public void abstractClassInfo() {// Non Abstract Method
+		System.out.println(
+				" Abstract class \n Name starts with UpperCase. \n Methods implemented inside it. \n Methods declared inside it. \n An abstract class is a super class that cannot be instantiated. \n\t Applewatchinfo is Abstract method. \n\t Yes we can create constructor inside Abstract Class. ");
 		System.out.println("*****************************************************************");
 	}
-	
-	public abstract Void  appleWatchInfo();//Abstract method
-		
+
+	public abstract Void appleWatchInfo();// Abstract method
+
 }

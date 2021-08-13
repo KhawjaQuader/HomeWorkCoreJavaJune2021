@@ -1,4 +1,5 @@
 package java_oop_exam;
+
 /*
  * Q 06)
  * NOW, Iphone1 came in 2000,
@@ -39,34 +40,35 @@ package java_oop_exam;
  * Execute all of them in TestPhone. 
  * [points: 70]
  */
-public class IPhone2 extends Iphone1{
-	
+public class IPhone2 extends Iphone1 {
+
 	public char userOfIphone2;
-	
-	public IPhone2() {//Default constructor 
-	super();
-	super.regularClassInfo();//
-	super.Name = "Abc";
-	System.out.println("*********************************************************************");
-	System.out.println("Name: " + Name);
-	System.out.println("This is default constructor from Iphone2 Class ");
+
+	public IPhone2() {// Default constructor
+		super();
+		super.regularClassInfo();//
+		super.Name = "Abc";
+		System.out.println("*********************************************************************");
+		System.out.println("Name: " + Name);
+		System.out.println("This is default constructor from Iphone2 Class ");
 	}
-	
-	public IPhone2(char userOfIphone2){//Parameterized constructor
-	super();
-	super.regularClassInfo();
-	super.Name = "Abc";
-	System.out.println("Name: " + Name);
-	this.userOfIphone2 = userOfIphone2;
-	System.out.println("userOfIphone2: " +  userOfIphone2);	
-	}
-	public void iphone2Info() {//Void type method
+
+	public IPhone2(char userOfIphone2) {// Parameterized constructor
+		super();
 		super.regularClassInfo();
 		super.Name = "Abc";
-		System.out.println("Family Name: "+ Name);
-	
+		System.out.println("Name: " + Name);
+		this.userOfIphone2 = userOfIphone2;
+		System.out.println("userOfIphone2: " + userOfIphone2);
 	}
-	
+
+	public void iphone2Info() {// Void type method
+		super.regularClassInfo();
+		super.Name = "Abc";
+		System.out.println("Family Name: " + Name);
+
+	}
+
 	public void dropbox() {
-		}
+	}
 }
