@@ -6,7 +6,7 @@ public interface Hospital {//Interface created
 
 	public void emergencyRoom();//Method declared
 
-	public void surgeryRoom();
+	public void surgeryRoom();//Method declared
 
-	public void cafeteria();
+	public void cafeteria();//Method declared
 }// We can not create Default constructor inside Interface as it can not instantiate

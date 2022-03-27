@@ -16,10 +16,10 @@ package hw6Q3Inheritance;
 
 // a) Create a class "Animal". Implement a method inside the class -- animalInfo and System.out.println("This method is from Animal Class"). 
 
-public class Animal {
+public class Animal {//a) Animal class created
 
-	public void animalInfo() {
-		System.out.println("This method is from Animal Class");
+	public void animalInfo() {//a) animalinfo method implemented
+		System.out.println("This method is from Animal Class");//a) Sysoutprintln is created 
 	}
 
 }

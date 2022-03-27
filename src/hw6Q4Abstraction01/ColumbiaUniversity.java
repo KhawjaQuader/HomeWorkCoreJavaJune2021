@@ -15,11 +15,9 @@ public class ColumbiaUniversity extends NYUniversity implements University,Hospi
 		System.out.println("This is Biology Method ");
 	}
 
-	public ColumbiaUniversity() {
+	public ColumbiaUniversity() {// Default Constructor inside a regular Class created
 		
-		
-		// Default Constructor inside a regular Class created
-		// Abstract method can not possible to create
+	// Abstract method can not possible to create
 
 	}
 

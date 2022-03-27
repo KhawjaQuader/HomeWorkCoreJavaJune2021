@@ -24,7 +24,7 @@ public class TestComputer {// 6 TestComputer class created as another
 
 		computer.configuration();
 
-		System.out.println("***********************************************************");
+		System.out.println("************************************************************************************************************");
 
 		Computer computer_b = new Computer();
 		computer_b.Brand = "Apple 2";

@@ -5,7 +5,7 @@ package hw4Q3JavaVariablesConstructorAndMethod;
  * Declare 8 types (If less than 8 type, will get zero) of primitive variable
  * and initialize them by object under main method.
  * Declare default constructor and initialize it (show by comments where it is initializing). 
- * Use a method and add above declared varible to use to get a outcome in console.  
+ * Use a method and add above declared variable to use to get a outcome in console.  
  * Print out 2 sets of data for different person (one is you, another one is your favorite person). Type as much as possible. Use \n, \t somewhere in the String. After finish writing the code, paste the code here.
  */
 public class MyProfile {
@@ -48,7 +48,7 @@ public class MyProfile {
 		System.out.println("****************************************************************************");
 
 		MyProfile favorite_person = new MyProfile();
-		favorite_person.MyName = "Amaan";
+		favorite_person.MyName = "Abcd";
 		favorite_person.myAge = 45;
 		favorite_person.mySex = 'M';
 		favorite_person.birthUsa = true;

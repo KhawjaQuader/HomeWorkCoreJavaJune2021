@@ -1,6 +1,6 @@
 package hw6Q4Abstraction01;
 
-/* Create another Abstract Class NursingSchool, 
+/*  
  * Create another Abstract Class NursingSchool, 
  * create 2 methods inside the Abstract Class - one is abstract and another one is the non-abstract name -- hygiene and caring. 
  * Print something inside the non-abstract or implemented method.

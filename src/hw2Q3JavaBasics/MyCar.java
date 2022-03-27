@@ -7,7 +7,7 @@ public class MyCar {
 		System.out.println("Color: Black ");
 		System.out.println("Model: Toyota ");
 		System.out.println("Year:  2012 ");
-		System.out.println("Wheel: 4 wheel drive ");
+		System.out.println("Wheel: 4 wheel drive\n ");
 
 		System.out.print("color: Black ");
 		System.out.print("Model: Toyota ");
